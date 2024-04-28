@@ -1,6 +1,4 @@
-const numDecimal = parseInt(prompt("Coloque um Decimal"))
-const convertDec = document.querySelector('h1')
-convertDec.textContent = numDecimal
+const numDecimal = 2
 
 
 function binary2Decimal(str){

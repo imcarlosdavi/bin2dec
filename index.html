@@ -3,23 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Binary to Decimal</title>
 </head>
 <body>
     <div class="container">
-        <div>
-            <input type="text" autocomplete="off" placeholder="Binary..." onchange="binary2Decimal(this.value)">
-        </div>
-
-        <div>
-            <h1>Decimal</h1>
-        </div>
-
-        <div>
-            <h3>0</h3>
-        </div>
+        <input type="text" autocomplete="off" placeholder="Binary..." 
+        onchange="binary2Decimal(this.value)">
+        <h2>Decimal: </h2>
+        <h3>0</h3>
     </div>
-
     <script src="bin2dec.js"></script>
 </body>
 </html>
